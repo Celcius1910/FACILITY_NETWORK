@@ -3,18 +3,16 @@ import shutil
 import subprocess
 import pytest
 
-# Path ke Allure CLI (pastikan ini sesuai dengan sistem kamu)
 ALLURE_CLI_PATH = "C:\\allure-2.32.1\\bin\\allure.bat"
 
 
 @pytest.hookimpl(tryfirst=True)
 def pytest_sessionstart(session):
-    """Bersihkan folder Allure sebelum memulai tes"""
     results_dir = "reports/allure-results"
 
     if os.path.exists(results_dir):
-        shutil.rmtree(results_dir)  # Hapus semua file lama
-        os.makedirs(results_dir)  # Buat ulang folder kosong
+        shutil.rmtree(results_dir)
+        os.makedirs(results_dir)
         print("\n🧹 Cleared old Allure results before test run.")
 
 
