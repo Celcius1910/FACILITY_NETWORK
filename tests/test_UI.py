@@ -127,9 +127,9 @@ faker = Faker()
             "lastName": faker.last_name(),
             "companyName": faker.company(),
             "email": faker.safe_email(),
-            "phoneNumber": faker.basic_phone_number(),
+            "phoneNumber": faker.basic_phone_number()
         }
-    ],
+    ]
 )
 def test_open_bookACall_form(page, data):
     home_page = HomePage(page)

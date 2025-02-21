@@ -384,5 +384,5 @@ class HomePage:
             with allure.step(title=f"Validate 'Book A Call' URL"):
                 self.page.wait_for_url(
                     "https://facility-network-f278f6-46422f00f1ecc61.webflow.io/booked",
-                    timeout=120000,
+                    timeout=120000
                 )
