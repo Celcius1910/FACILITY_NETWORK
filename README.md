@@ -87,8 +87,8 @@ pytest --cache-clear
 
 ## 📬 Contact
 For any questions or assistance, feel free to reach out:
-📧 Email: your-email@example.com  
-📌 GitHub: [your-github](https://github.com/your-github)
+📧 Email: naufalazizmaulana19@gmail.com
+📌 GitHub: https://github.com/Celcius1910
 
 ---
 
