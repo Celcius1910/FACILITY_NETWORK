@@ -1,7 +1,7 @@
-# SHER_AGENCY_TEST
+# FACILITY_NETWORK
 
 ## 🚀 Introduction
-SHER_AGENCY_TEST is a UI automation testing project using **Playwright** and **pytest**. This project also integrates **Allure** for generating detailed test reports.
+FACILITY_NETWORK is a UI automation testing project using **Playwright** and **pytest**. This project also integrates **Allure** for generating detailed test reports.
 
 ---
 
