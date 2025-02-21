@@ -10,8 +10,8 @@ SHER_AGENCY_TEST is a UI automation testing project using **Playwright** and **p
 ### 1️⃣ Clone the Repository
 Ensure you have **Git** installed, then run:
 ```sh
-git clone https://github.com/your-repo/SHER_AGENCY_TEST.git
-cd SHER_AGENCY_TEST
+git clone https://github.com/Celcius1910/FACILITY_NETWORK.git
+cd FACILITY_NETWORK
 ```
 
 ### 2️⃣ Create a Virtual Environment (Optional but Recommended)
